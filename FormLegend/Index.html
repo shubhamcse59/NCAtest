@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+<style>
+h1.header {
+    text-align: center;
+    background-color: violet;
+    color: black;
+    border: 1;
+    border-radius: 5%;
+    border-style: dashed;
+  }
+
+  body {
+    background-image: url("/images/Shiva.jpg");
+    background-repeat: no-repeat;
+    /* background-position: 100px 10px; */
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+  }
+</style>
+</head>
+
+    <body>
+        <!-- <h1 class="header">
+            A Sample Form Legend
+        </h1> -->
+        <form>
+
+            <legend>A Sample Form Legend</legend>
+           
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Name" id="name" name=name">
+
+                <label for="email" >Enter your email:</label>
+                <input type="email" id="email" placeholder="Email">
+   
+                <label>Button: </label>
+                <input type="button" value="Button" name="button"></input>
+                
+                <label>Single Checkbox:
+                <input type="checkbox"  name="button" value="checkbox1" /> </label>
+               
+                <fieldset >      
+                    <legend >Group of Checkboxes: </legend>  
+                    <label>Checkbox 1:  
+                        <input type="checkbox" name="checkbox1" value="checkgroup[]" /></label>  
+                    <label>Checkbox 2:  
+                        <input type="checkbox" name="checkbox2" value="checkgroup[]" /></label>  
+                    <label>Checkbox 3:     
+                        <input type="checkbox" name="checkbox3" value="checkgroup[]" /></label>  
+                    <label>Checkbox 4:      
+                        <input type="checkbox" name="checkbox4" value="checkgroup[]" /></label>  
+                </fieldset>
+
+                <label>Color: </label>
+                <input type="color" name="color" value="color" />
+
+                <label>Date: </label>
+                <input type="date" name="date" value="date" />
+
+                <label>Date, Time(Local): </label>
+                <input type="datetime-local" name="datetime" value="datetime" />
+
+                <label>File: </label>
+                <input type="file" name="file" value="file" />
+
+                <input type="hidden" name="hidden" value="hidden" />
+
+                <label>Image: </label>
+                <input type="image" name="image" value="image" />
+
+                <label>Month: </label>
+                <input type="month" name="month" value="month" />
+
+                <label>Number: </label>
+                <input type="number" name="number" value="number" />
+
+                <label>Password: </label>
+                <input type="password" name="password" value="password" />
+
+                <label>Single radio:: 
+                <input type="radio" name="radio" value="radio" /> </label>
+
+                <fieldset>      
+                    <legend >Group of Radios: </legend>  
+                    <label>Radio 1:  
+                    <input type="radio" name="radio1" value="radiogroup" /></label>  
+                    <label>Radio 2:</label>      
+                    <input type="radio" name="radio2" value="radiogroup" /></label>  
+                    <label>Radio 3:</label>      
+                    <input type="radio" name="radio3" value="radiogroup" /></label>  
+                    <label>Radio 4:</label>      
+                    <input type="radio" name="radio4" value="radiogroup" /></label>    
+                </fieldset>
+
+                <label>Range</label>
+                <input type="range" name="range" value="range" />
+
+                <label>Reset: </label>
+                <input type="reset" name="reset" value="reset" />
+
+                <label>Time: </label>
+                <input type="time" name="time" value="time" />
+
+                <label>Search: </label>
+                <input type="search" name="search" value="search" />
+
+                <label>Tel: </label>
+                <input type="tel" name="tel" value="tel" />
+
+                <label>Text: </label>
+                <input type="text" name="text" value="text" />
+
+                <label>URL: </label>
+                <input type="url" name="url" value="url" />
+
+                <label>Week: </label>
+                <input type="week" name="week" value="week" />
+
+                <button >This is a button!</button>
+
+                <label>Select 1: </label>
+                <select name="select" size="1">
+                    <option>Test</option>
+                    <option>Test</option>
+                </select>
+
+                <label>Select 2: </label>
+                <select name="select1" size="3">
+                    <option>Test</option>
+                    <option>Test</option>
+                </select>
+
+                <label>Select Multiple: </label>
+                <select name="select2" size="3" multiple>
+                    <option>Test</option>
+                    <option>Test</option>
+                </select>
+
+                <label>Select Groups: </label>
+                <select name="select3" size="1" multiple>
+                    <optgroup label="First Group">
+                    <option>Test</option>
+                    <option>Test</option>
+                </optgroup>
+                <optgroup label="Second Group">
+                    <option>Test</option>
+                    <option>Test</option>
+                </optgroup>
+                </select>
+               
+                <fieldset >      
+                    <legend >Datalist: </legend>  
+                    <input type="text" name="datalist" list="samplelist">
+                    <datalist id="samplelist">
+                        <option>Something</option>
+                        <option>Something else</option>
+                        <option>Another thing</option>
+                    </datalist>
+                </fieldset>
+
+                <label>A textarea!</label>
+                <textarea name="textarea">A paragragh is here</textarea>
+
+                <label>Progress  (very unsupproted):</label>
+                <progress value="20" max="100"></progress>
+
+                <label>Meter (very unsupported): </label>
+                <meter min="0" value="20" max="100" low="10" high="90" optimum="80">20 in the meter</meter>
+
+                <input type="submit" value="GO" />
+
+           
+        </form>
+    </body>
+</html>

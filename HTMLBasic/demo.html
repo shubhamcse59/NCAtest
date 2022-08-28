@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML demo</title>
+    <style>
+        h1,
+        h2 {
+            text-align: center;
+            background-color: brown;
+            color: cornsilk;
+        }
+    </style>
+</head>
+
+<body style="font-family:cursive">
+    <div>
+        <!-- div singifies one division of the page -->
+        <h1>Welcome to HTML demo</h1>
+        <!-- defines the heading and the number defines the size  -->
+        <!-- <h2>Welcome to HTML demo</h1>
+    <h3>Welcome to HTML demo</h1>
+    <h4>Welcome to HTML demo</h1>
+    <h5>Welcome to HTML demo</h1>
+    <h6>Welcome to HTML demo</h1> -->
+        <!--p tags are for paragraghs-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis exercitationem numquam minus voluptate!
+            Laboriosam iusto consectetur nisi sit quod est aliquam repudiandae asperiores alias nulla cumque incidunt
+            animi, architecto ratione distinctio omnis aspernatur repellendus magnam sapiente inventore voluptatum ipsa.
+            Unde alias, inventore consequatur harum neque soluta nihil quis facere iure itaque reprehenderit hic
+            veritatis, id quos dignissimos ipsam in quia!</p>
+    </div>
+    <form>
+        <div style="text-align: center;">
+            <label for="firstname">Firstname:</label>
+
+            <input type="text" placeholder="Enter your firstname here " id="firstname" name="firstname">
+            <label for="lastname">Lastname:</label>
+            <input type="text" placeholder="Enter your lastname here " id="lastname" name="lastname">
+            <br />
+            <br />
+            <label for="address">Address</label>
+            <br />
+            <textarea name="address" id="address" cols="25" rows="5"></textarea>
+            <br />
+            <label for="city">City:</label>
+            <input type="text" placeholder="Enter your city here " id="city" name="city">
+            <label for="state">State:</label>
+            <input type="text" placeholder="Enter your state here " id="state">
+            <br />
+            <label for="zip">Enter your Zip/Postal code :</label>
+            <input type="number" placeholder="Enter zip here " id="zip">
+            <br />
+            <label for="country">Select your country </label>
+            <select id="country">
+                <option value="India">India</option>
+                <option value="England">England</option>
+                <option value="Germany">Germany</option>
+                <option value="Singapore">Singapore</option>
+            </select>
+            <br />
+            <label for="number">Select your country code and your phone number </label>
+            <br />
+            <input type="number" placeholder="country code">
+            <input type="number" placeholder="phoneNumber">
+            <br />
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" placeholder="enter mail here">
+            <br />
+            <label for ="gender">Gender</label>
+            <input type="radio" value="Male" id="gender" name="gender">Male
+            <input type="radio" value="Female" id="gender" name="gender">Female
+            <br />
+            <input type="submit">
+            <input type="reset">
+            <br />
+        </div>
+    </form>
+    <div>
+        <br />
+        <center>
+        <table border ="8">
+            <!--tr = table row, td =table data, th=table header-->
+            <tr><th>Firstname</th> <th>Lastname</th><th>Email</th></tr>
+            <tr><td>Shubham</td> <td>Kumar</td><td>Shuham@gmail.com</td></tr>
+            <tr><td>Vishal</td> <td>Shekhar</td><td>VS@gmail.com</td></tr>
+            <tr><td>Mark</td> <td>Cuban</td><td>Mark@gmail.com</td></tr>
+            <tr><td>Vikram</td> <td>Shetty</td><td>VS@gmail.com</td></tr>
+        </table>
+    </center>
+    </div>
+    <!--lists are of three types
+     1. ordered list
+    2. unordered --lists
+    3.defination list -->
+    
+    <div >
+            <ol style="display: table;
+            margin: 0 auto;">
+                <li>Apple</li>
+                <li>HP</li>
+                <li>Dell</li>
+                <li>Lenovo</li>
+                <li>Razer</li>
+            </ol>
+            
+            <ul style="display: table;
+            margin: 0 auto;">
+                <li>Apple</li>
+                <li>HP</li>
+                <li>Dell</li>
+                <li>Lenovo</li>
+                <li>Razer</li>
+            </ul>
+        
+        <dl>
+            <dt>Nishant</dt>
+            <dd> - He is our trainer</dd>
+            <dt>Vikram</dt>
+            <dd> - He is our developer</dd>
+            <dt>Peter</dt>
+            <dd> - He is our CA</dd>
+        </dl>
+        <center>
+            <h2>Beagles</h2>
+        <img src="Beagle.jpeg" height="500px" width="700px" alt="this is a beagle's image">
+            <!-- anchor tags defines a hyperlink-->
+            <br>
+            <a href="https://www.akc.org/dog-breeds/beagle/">click to know more </a>
+    </center>
+    </div>
+</body>
+</html>
